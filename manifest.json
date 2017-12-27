@@ -1,0 +1,19 @@
+{
+    "name": "Steemit replies to me",
+    "description": "Steemit replies to me.",
+    "version": "1.0",
+    "manifest_version": 2,
+    "background": {
+        "page": "Steemit.html"
+    },
+    "browser_action":{
+        "default_icon":"Logo.png",
+        "default_popup": "Steemit.html",
+        "default_title": "Steemit replies to me"
+    },
+    "icons":{"128":"Logo.png"},
+    "permissions": [
+        "tabs", "*://*.steemit.com/*", "notifications"
+    ]
+
+}
